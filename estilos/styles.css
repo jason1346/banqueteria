@@ -1,0 +1,315 @@
+@import "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .datos {
+  display: flex;
+}
+header .datos h1, header .datos h2 {
+  font-size: 1rem;
+  font-family: "Tilt Neon", Courier, monospace;
+  margin-left: 280px;
+  margin-top: 80px;
+}
+header .titulos {
+  display: flex;
+  margin-left: 90px;
+  width: 70%;
+  height: 120px;
+}
+header .titulos img {
+  width: 120px;
+  height: 120px;
+}
+header .titulos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .titulos div h3 {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 2.5rem;
+  font-family: "Work Sans";
+}
+header .titulos div h4 {
+  font-family: "Work Sans";
+  margin-left: 30px;
+}
+header .separator {
+  font-size: 19px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px 20px 20px;
+  top: 0px;
+}
+header .separator::after {
+  content: "";
+  display: flex;
+  background-color: black;
+  margin: 40px 0;
+  height: 0.02rem;
+  width: 89%;
+  position: absolute;
+}
+
+.section-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.section-img div {
+  margin-top: 20px;
+  width: 1090px;
+}
+.section-img div .carousel-indicators {
+  left: -15%;
+}
+.section-img div .carousel-item {
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.section-img div .carousel-item img {
+  justify-content: center;
+  align-items: center;
+  height: 490px;
+  width: 20px;
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.informacion-banqueteria {
+  display: flex;
+}
+.informacion-banqueteria div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 500px;
+  height: 500px;
+  margin-left: 88px;
+  gap: 20px;
+  background-color: rgb(230, 216, 215);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.informacion-banqueteria div h5 {
+  font-size: 2.5rem;
+  width: 460px;
+  text-align: center;
+  font-family: "Work Sans", Courier, monospace;
+}
+.informacion-banqueteria div p {
+  width: 400px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.informacion-banqueteria div img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.banqueteria-servicio {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.banqueteria-servicio .servicios {
+  height: 1350px;
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+}
+.banqueteria-servicio .servicios h6 {
+  position: relative;
+  font-size: 4rem;
+  text-decoration: underline 3px;
+  font-family: "Work Sans", "Arial Narrow", Arial, sans-serif;
+  margin-top: 60px;
+}
+.banqueteria-servicio .servicios p {
+  margin-top: 70px;
+  position: relative;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 90%;
+  font-family: "Lexend Deca", Courier, monospace;
+}
+.banqueteria-servicio .servicios .servicio-evento {
+  margin-top: 50px;
+  display: flex;
+  width: 90%;
+  position: relative;
+  height: 780px;
+  background-color: rgb(248, 240, 240);
+}
+.banqueteria-servicio .servicios .servicio-evento div {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.banqueteria-servicio .servicios .servicio-evento div img {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  padding-left: 0px;
+  border: 1px solid black;
+}
+.banqueteria-servicio .servicios .servicio-evento div div {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  top: -30%;
+  left: 5%;
+  border-radius: 10px;
+}
+.banqueteria-servicio .servicios .servicio-evento div div h6 {
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 70%;
+  margin-top: 0px;
+  font-family: "Tilt Neon", Courier, monospace;
+}
+.banqueteria-servicio .servicios .servicio-evento div div p {
+  font-size: 0.9rem;
+  margin-top: -70px;
+  text-align: justify;
+  font-family: "Work Sans", Courier, monospace;
+}
+.banqueteria-servicio .servicios:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url("../../img/servicios.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.contact {
+  width: 100%;
+  height: 900px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.contact div {
+  width: 45%;
+  height: 700px;
+  background-color: rgb(245, 233, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact div h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: "Work Sans", Courier, monospace;
+  text-align: center;
+  margin-top: 100px;
+}
+.contact div h2, .contact div h3 {
+  font-size: 1rem;
+  font-family: "Tilt Neon", Courier, monospace;
+  text-align: center;
+}
+.contact div form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact div form input[type=text], .contact div form input[type=date] {
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  background: none;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-family: "Tilt Neon", Courier, monospace;
+  padding: 10px;
+}
+.contact div form input[type=text]:focus, .contact div form input[type=date]:focus {
+  border: 1px solid rgb(253, 102, 102);
+  background-color: rgb(246, 216, 216);
+}
+.contact div form input[type=button] {
+  width: 80%;
+  height: 50px;
+  margin-top: 40px;
+  background-color: black;
+  font-style: italic;
+  font-family: "Tilt Neon", Courier, monospace;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.contact img {
+  width: 45%;
+  height: 700px;
+}
+
+footer {
+  height: 130px;
+  width: 100%;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div .fa-instagram {
+  color: rgb(251, 126, 188);
+}
+footer div i {
+  color: rgb(37, 211, 102);
+  font-size: 3rem;
+  margin-left: 30px;
+  transition: 0.2s ease-in;
+}
+footer div i:hover {
+  transform: scale(1.2);
+}
+footer h4 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Tilt Neon", Courier, monospace;
+}
+
+/*# sourceMappingURL=styles.css.map */

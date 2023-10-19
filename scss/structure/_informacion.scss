@@ -1,0 +1,41 @@
+.informacion-banqueteria{
+    display: flex;
+
+    
+    
+   
+
+
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        width: 500px;
+        height: 500px;
+        margin-left: 88px;
+        gap: 20px;
+        background-color: rgb(230,216,215);
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+        h5{
+            font-size: 2.5rem;
+            width: 460px;
+            text-align: center;
+            font-family: 'Work Sans', Courier, monospace;
+        }
+        p{
+            width: 400px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        img{
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+        }
+    }
+
+}

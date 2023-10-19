@@ -1,0 +1,39 @@
+.section-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    div{
+        margin-top: 20px;
+
+        .carousel-indicators{
+            left: -15%;
+        }
+
+        width: 1090px ;
+
+        .carousel-item {
+            margin-top: 40px;
+            
+            justify-content: center;
+            align-items: center;
+            
+            img {
+                justify-content: center;
+                align-items: center;
+                height: 490px;
+                width: 20px;
+                background-size: cover;
+                cursor: pointer;
+                border-radius: 5px;
+                border: 1px solid black;
+    
+            }
+        }
+
+    }
+
+   
+}
+
