@@ -269,7 +269,7 @@ header .separator::after {
   border: 1px solid rgb(253, 102, 102);
   background-color: rgb(246, 216, 216);
 }
-.contact div form input[type=button] {
+.contact div form input[type=submit] {
   width: 80%;
   height: 50px;
   margin-top: 40px;
